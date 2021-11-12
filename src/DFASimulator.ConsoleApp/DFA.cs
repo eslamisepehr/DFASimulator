@@ -63,7 +63,7 @@
         private Dictionary<string, State> Transitions { get; set; }
 
 
-        public void AddRoute(string transition, State destination)
+        public void AddTransition(string transition, State destination)
         {
             Transitions.Add(transition, destination);
         }
